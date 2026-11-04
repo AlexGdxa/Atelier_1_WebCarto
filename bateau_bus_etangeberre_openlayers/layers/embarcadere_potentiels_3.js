@@ -1,0 +1,33 @@
+var json_embarcadere_potentiels_3 = {
+"type": "FeatureCollection",
+"name": "embarcadere_potentiels_3",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"xy_coordinate_resolution": 0.0001,
+"features": [
+{"type":"Feature","properties":{"surf":48996.7,"hub_dist_route":287.46229,"hub_dist_parking":488.85928,"potentiel":"Bonne emprise foncière mais éloignement à plus de 400 m des commodités"},"geometry":{"type":"Point","coordinates":[5.1137,43.5088]}},
+{"type":"Feature","properties":{"surf":75.1,"hub_dist_route":86.40303,"hub_dist_parking":327.1926,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.114,43.5109]}},
+{"type":"Feature","properties":{"surf":255.0,"hub_dist_route":14.84884,"hub_dist_parking":80.3892,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.1167,43.5119]}},
+{"type":"Feature","properties":{"surf":577.2,"hub_dist_route":58.70183,"hub_dist_parking":143.77765,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.118,43.5134]}},
+{"type":"Feature","properties":{"surf":296456.4,"hub_dist_route":71.20051,"hub_dist_parking":488.36312,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.202,43.4909]}},
+{"type":"Feature","properties":{"surf":5542.7,"hub_dist_route":150.75358,"hub_dist_parking":336.09373,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.0027,43.4713]}},
+{"type":"Feature","properties":{"surf":124.8,"hub_dist_route":194.00512,"hub_dist_parking":327.83801,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.2235,43.4792]}},
+{"type":"Feature","properties":{"surf":170.5,"hub_dist_route":89.55691,"hub_dist_parking":254.3211,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.2244,43.4814]}},
+{"type":"Feature","properties":{"surf":260.7,"hub_dist_route":111.45316,"hub_dist_parking":262.77802,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.2227,43.4835]}},
+{"type":"Feature","properties":{"surf":69.9,"hub_dist_route":167.98666,"hub_dist_parking":197.50768,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.2203,43.4844]}},
+{"type":"Feature","properties":{"surf":443.2,"hub_dist_route":104.5386,"hub_dist_parking":130.63274,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.2201,43.4859]}},
+{"type":"Feature","properties":{"surf":10.3,"hub_dist_route":154.96422,"hub_dist_parking":106.15125,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.2183,43.4881]}},
+{"type":"Feature","properties":{"surf":85.2,"hub_dist_route":342.03745,"hub_dist_parking":416.43619,"potentiel":"Faible emprise foncière et éloignement à plus de 400 m des commodités"},"geometry":{"type":"Point","coordinates":[5.2136,43.4885]}},
+{"type":"Feature","properties":{"surf":108754.5,"hub_dist_route":77.97302,"hub_dist_parking":369.70139,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.1976,43.4382]}},
+{"type":"Feature","properties":{"surf":1487689.8,"hub_dist_route":341.68357,"hub_dist_parking":479.51224,"potentiel":"Bonne emprise foncière mais éloignement à plus de 400 m des commodités"},"geometry":{"type":"Point","coordinates":[5.2065,43.4452]}},
+{"type":"Feature","properties":{"surf":0.0,"hub_dist_route":196.47236,"hub_dist_parking":250.35681,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.2235,43.4508]}},
+{"type":"Feature","properties":{"surf":0.0,"hub_dist_route":342.36009,"hub_dist_parking":408.27415,"potentiel":"Faible emprise foncière et éloignement à plus de 400 m des commodités"},"geometry":{"type":"Point","coordinates":[5.225,43.4517]}},
+{"type":"Feature","properties":{"surf":0.0,"hub_dist_route":379.21762,"hub_dist_parking":446.5799,"potentiel":"Faible emprise foncière et éloignement à plus de 400 m des commodités"},"geometry":{"type":"Point","coordinates":[5.2254,43.4519]}},
+{"type":"Feature","properties":{"surf":0.0,"hub_dist_route":167.82341,"hub_dist_parking":411.24437,"potentiel":"Faible emprise foncière et éloignement à plus de 400 m des commodités"},"geometry":{"type":"Point","coordinates":[5.2297,43.467]}},
+{"type":"Feature","properties":{"surf":2.1,"hub_dist_route":175.4584,"hub_dist_parking":470.35214,"potentiel":"Faible emprise foncière et éloignement à plus de 400 m des commodités"},"geometry":{"type":"Point","coordinates":[5.2294,43.4675]}},
+{"type":"Feature","properties":{"surf":0.0,"hub_dist_route":157.32258,"hub_dist_parking":475.55636,"potentiel":"Faible emprise foncière et éloignement à plus de 400 m des commodités"},"geometry":{"type":"Point","coordinates":[5.2274,43.4709]}},
+{"type":"Feature","properties":{"surf":0.0,"hub_dist_route":176.87958,"hub_dist_parking":251.00819,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.2243,43.4758]}},
+{"type":"Feature","properties":{"surf":10458.8,"hub_dist_route":242.60709,"hub_dist_parking":499.36334,"potentiel":"Bonne emprise foncière mais éloignement à plus de 400 m des commodités"},"geometry":{"type":"Point","coordinates":[5.0543,43.4411]}},
+{"type":"Feature","properties":{"surf":3746.3,"hub_dist_route":114.96404,"hub_dist_parking":146.43918,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.1533,43.408]}},
+{"type":"Feature","properties":{"surf":2200.4,"hub_dist_route":484.32017,"hub_dist_parking":374.60464,"potentiel":"Emprise foncière supérieure à 5000 m² et bonne connexion aux commodités les plus proches"},"geometry":{"type":"Point","coordinates":[5.1768,43.4222]}}
+]
+}

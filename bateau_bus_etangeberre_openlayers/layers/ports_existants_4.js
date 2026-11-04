@@ -1,0 +1,16 @@
+var json_ports_existants_4 = {
+"type": "FeatureCollection",
+"name": "ports_existants_4",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"xy_coordinate_resolution": 0.0001,
+"features": [
+{"type":"Feature","properties":{"fid":"1","nom":"Port de Saint-Chamas"},"geometry":{"type":"Point","coordinates":[5.0327,43.5449]}},
+{"type":"Feature","properties":{"fid":"2","nom":"Port d'Istres"},"geometry":{"type":"Point","coordinates":[4.9983,43.4983]}},
+{"type":"Feature","properties":{"fid":"3","nom":"Port de Martigues"},"geometry":{"type":"Point","coordinates":[5.0617,43.4011]}},
+{"type":"Feature","properties":{"fid":"4","nom":"Port de Berre"},"geometry":{"type":"Point","coordinates":[5.1685,43.4716]}},
+{"type":"Feature","properties":{"fid":"6","nom":"Port de Saint-Chamas (centrale hydro-electrique)"},"geometry":{"type":"Point","coordinates":[5.0788,43.5269]}},
+{"type":"Feature","properties":{"fid":"7","nom":"Martigues (Ferrières)"},"geometry":{"type":"Point","coordinates":[5.0526,43.4062]}},
+{"type":"Feature","properties":{"fid":"8","nom":"Port de Saint-Chamas 2"},"geometry":{"type":"Point","coordinates":[5.0313,43.5482]}},
+{"type":"Feature","properties":{"fid":"9","nom":"Port de Chateauneuf"},"geometry":{"type":"Point","coordinates":[5.1184,43.4034]}}
+]
+}
