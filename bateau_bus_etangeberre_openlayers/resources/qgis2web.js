@@ -500,8 +500,8 @@ var bottomLeftContainerDiv = document.getElementById('bottom-left-container')
 var topRightContainerDiv = document.getElementById('top-right-container')
 var bottomRightContainerDiv = document.getElementById('bottom-right-container')
 
-//title
 
+//title
 var Title = new ol.control.Control({
     element: (() => {
         var titleElement = document.createElement('div');
@@ -514,6 +514,45 @@ var Title = new ol.control.Control({
 map.addControl(Title)
 
 //abstract
+
+var Abstract = new ol.control.Control({
+    element: (() => {
+        var titleElement = document.createElement('div');
+        titleElement.className = 'bottom-right-abstract ol-control';
+        titleElement.id = 'abstract';
+
+        var linkElement = document.createElement('a');
+
+        if (139 > 240) {
+            linkElement.setAttribute("onmouseenter", "showAbstract()");
+            linkElement.setAttribute("onmouseleave", "hideAbstract()");
+            linkElement.innerHTML = 'i';
+
+            window.hideAbstract = function() {
+                linkElement.classList.add("project-abstract");
+                linkElement.classList.remove("project-abstract-uncollapsed");
+                linkElement.innerHTML = 'i';
+            }
+
+            window.showAbstract = function() {
+                linkElement.classList.remove("project-abstract");
+                linkElement.classList.add("project-abstract-uncollapsed");
+                linkElement.innerHTML = 'Cartographie des potentiels sites d\'implantation d\'embarcadères autour de l\'Etang de Berre pour le développement de lignes de bateaux bus. ';
+            }
+
+            hideAbstract();
+        } else {
+            linkElement.classList.add("project-abstract-uncollapsed");
+            linkElement.innerHTML = 'Cartographie des potentiels sites d\'implantation d\'embarcadères autour de l\'Etang de Berre pour le développement de lignes de bateaux bus. ';
+        }
+
+        titleElement.appendChild(linkElement);
+        return titleElement;
+    })(),
+    target: 'bottom-right-container'
+});
+map.addControl(Abstract);
+
 
 
 //geolocate
