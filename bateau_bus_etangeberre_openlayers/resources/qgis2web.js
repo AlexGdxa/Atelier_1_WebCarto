@@ -77,7 +77,18 @@ styleCursorMove();
         })(),
     });
     map.addControl(topRightContainer)
-
+// Logo control
+var Logo = new ol.control.Control({
+    element: (() => {
+        var logoElement = document.createElement('div');
+        logoElement.className = 'logo-control ol-control';
+				logoElement.style.marginLeft = '60px';
+        logoElement.innerHTML = '<img src="https://raw.githubusercontent.com/AlexGdxa/Atelier_1_WebCarto/refs/heads/main/bateau_bus_etangeberre_openlayers/resources/logo_ES_1.png" alt="Logo" style="max-height: 50px; max-width: 150px;">';
+        return logoElement;
+    })(),
+    target: 'top-left-container'
+});
+map.addControl(Logo);
     //bottom right container
     var bottomRightContainer = new ol.control.Control({
         element: (() => {
